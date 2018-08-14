@@ -1,5 +1,5 @@
-# Encrandom encrypt secret and decrypt if jobstatus is one.
-* - monitor with - watch cat /var/tmp/.secret
+# Encrandom encrypt secret and decryptis if jobstatus is one.
+ - monitor with - watch cat /var/tmp/.secret
 
  0. ./encrandom.sh
 
