@@ -8,11 +8,7 @@
  2. printf "1" > /tmp/JOB
 
  *Had some ~~old fart~~ friend telling me to not trust services that can read my password upon requests to reset.*
-
  *In disbelief i gasped.*
-
  *But that is easy to implement even in sh why would they do such a thing ?*
-
  *He shrugged and said.*
- 
- *they do not care he answered.*
+ *they do not care*
