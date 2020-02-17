@@ -4,7 +4,12 @@ dec_secret="/var/tmp/secret"
 enc_secret="/var/tmp/.secret"
 encrypt="openssl enc -e -aes-256-cbc -a -pass "
 decrypt="openssl enc -d -aes-256-cbc -a -pass "
-   printf "0" >/tmp/JOB
+
+printf "0" >/tmp/JOB
+if [ $enc_debug = 'True' ]
+        then
+            set -x
+fi
 
 while true
         do
