@@ -20,7 +20,7 @@ if [ -f $dec_secret ]
             rm $dec_secret
             sleep 5
 
-elif [ "$(cat /tmp/JOB)" = 1 ]
+if [ "$(cat /tmp/JOB)" = 1 ]
         then
             DEC=$(cat $enc_secret | $decrypt pass:$RND); echo $DEC
             RND="$RANDOM.$RANDOM"
